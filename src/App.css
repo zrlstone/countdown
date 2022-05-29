@@ -72,6 +72,8 @@
 
 .background {
   background-image: url('https://creativereview.imgix.net/content/uploads/2020/02/5-Tame-Impala-TSR-%E2%80%93-Neil-Krug.jpg');
+  background-position: center;
+  background-size: cover;
   height: 100vh;
 }
 
