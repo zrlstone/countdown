@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Microgramma";
+  src: local("Microgramma"),
+   url("./fonts/Microgramma.otf") format("opentype");
+  font-weight: bold;
+}

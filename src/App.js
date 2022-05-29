@@ -4,17 +4,19 @@ import CountdownTimer from './CountdownTimer';
 import './App.css';
 
 export default function App() {
-  // const THREE_DAYS_IN_MS = 3 * 24 * 60 * 60 * 1000;
   const targetTameDate = new Date('August 25, 2022 15:00:00').getTime();
 
-  // const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
-
   return (
-    <div>
-      <div>
-        <h1 class='header'>Tame Impala Countdown Timer</h1>
+    <div class='background'>
+      <div class='container'>
+        <div>
+          <h1 class='header font-face-m show-counter'>Tame Impala Countdown</h1>
+        </div>
+        <CountdownTimer targetDate={targetTameDate} />
+        <div>
+          <h3 class='header font-face-m show-counter'>Not long to go now Babs!</h3>
+        </div>
       </div>
-      <CountdownTimer targetDate={targetTameDate} />
     </div>
   );
 }
